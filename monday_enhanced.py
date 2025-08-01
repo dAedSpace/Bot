@@ -172,7 +172,7 @@ async def monday_response(ctx, *, message):
         
         # Create the conversation with Monday's personality
         response = openai.ChatCompletion.create(
-            model=bot_settings.get("default_model", "gpt-4"),
+            model=bot_settings.get("default_model", "gpt-4o"),
             messages=[
                 {"role": "system", "content": MONDAY_SYSTEM_PROMPT},
                 {"role": "user", "content": f"Context: {mood_context}. User {ctx.author.display_name} says: {message}"}

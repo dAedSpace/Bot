@@ -1,0 +1,11 @@
+{
+    "discord_token": "b071f08299bba087657fd172afaf9683958f2f14abd484ed7f56e606bc32c871",
+    "openai_api_key": "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
+",
+    "bot_settings": {
+        "default_model": "gpt-4",
+        "fallback_model": "gpt-3.5-turbo",
+        "max_tokens": 300,
+        "temperature": 0.8
+    }
+} 

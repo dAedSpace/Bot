@@ -1,0 +1,1 @@
+worker: python monday_bot.py 

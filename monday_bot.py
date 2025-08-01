@@ -1,11 +1,11 @@
 import discord
 from discord.ext import commands
-import openai
+from openai import OpenAI
 import os
 import json
 import logging
 from datetime import datetime
-import random
+import traceback
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

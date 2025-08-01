@@ -5,8 +5,7 @@
   },
   "deploy": {
     "startCommand": "python monday_bot.py",
-    "healthcheckPath": "/",
-    "healthcheckTimeout": 100,
+    
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
